@@ -1,6 +1,8 @@
 // React
 import { useEffect, useState } from "react";
 
+import styles from "./styles.module.scss";
+
 // Axios
 import axios from "axios";
 
@@ -17,15 +19,15 @@ const HomeProducts = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        axios.get("https://fakestoreapi.com/products").then((response) => {
+        axios.get(`https://fakestoreapi.com/products`).then((response) => {
             setProducts(response.data);
         });
     }, []);
 
     return (
         <section className="my-5">
-            <div className="container pl-3 ">
-                <h2 className="mb-4 text-secondary">Todos produtos</h2>
+            <div className="container px-3 ">
+                <h2 className={`${styles.sectionTitle} mb-4 text-secondary`}>Todos produtos</h2>
                 <Swiper spaceBetween={15} slidesPerView={2.5}>
                     {products.map((product) => {
                         return (

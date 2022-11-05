@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HomeProducts from "../src/components/HomeProducts";
+import HomeCategories from "../src/components/HomeCategories";
 import HomeSlider from "../src/components/HomeSlider";
 import Header from './../src/components/UI/Header/index';
 
@@ -17,6 +18,8 @@ export default function Home() {
             <Header/>
             <HomeSlider/>
             <HomeProducts/>
+            <HomeCategories category={"electronics"} />
+            <HomeCategories category={"jewelery"} />
         </div>
     );
 }

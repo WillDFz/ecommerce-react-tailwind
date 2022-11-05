@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+$main-background: #000;
 $secondary-color: #ECD690;
 
+body{
+    background: $main-background;
+}
 .text-primary{}
 
 .text-secondary{
