@@ -3,14 +3,27 @@
 @tailwind utilities;
 
 $main-background: #000;
+$primaty-color: #fff;
 $secondary-color: #ECD690;
 
-body{
+body {
     background: $main-background;
 }
-.text-primary{}
 
-.text-secondary{
+.text-primary {
+    color: $primaty-color;
+    fill: $primaty-color;
+}
+
+.text-secondary {
     color: $secondary-color;
     fill: $secondary-color;
+}
+
+.main-background {
+    background: $main-background;
+}
+
+.main-foreground{
+    background: $secondary-color;
 }

@@ -3,6 +3,7 @@ import HomeProducts from "../src/components/HomeProducts";
 import HomeCategories from "../src/components/HomeCategories";
 import HomeSlider from "../src/components/HomeSlider";
 import Header from './../src/components/UI/Header/index';
+import Newsletter from './../src/components/UI/Newsletter/index';
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <HomeProducts/>
             <HomeCategories category={"electronics"} />
             <HomeCategories category={"jewelery"} />
+            <Newsletter/>
         </div>
     );
 }
