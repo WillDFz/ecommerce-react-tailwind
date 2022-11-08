@@ -1,8 +1,10 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Autoplay, Pagination } from "swiper";
+
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/pagination";
 
 const HomeSlider = () => {
     return (
@@ -14,7 +16,8 @@ const HomeSlider = () => {
                 autoplay={{
                     delay: 5000,
                 }}
-                modules={[Autoplay]}
+                pagination={true}
+                modules={[Autoplay, Pagination]}
             >
                 <SwiperSlide>
                     <img src="images/banner1.jpg" alt="" />

@@ -27,3 +27,7 @@ body {
 .main-foreground{
     background: $secondary-color;
 }
+
+.swiper-pagination-bullet-active{
+    background: $secondary-color !important;
+}
