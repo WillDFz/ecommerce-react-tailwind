@@ -1,12 +1,16 @@
 import { React, useState } from "react";
 
+// Styles
+import styles from "./styles.module.scss";
+
+// Hamburger react comp
 import Hamburger from "hamburger-react";
 
-const Menu = () => {
-    const [isOpen, setOpen] = useState(false);
+const Menu = ({ isOpen, setOpen }) => {
     return (
         <>
-            <img src="svg/hamburger.svg" className="h-4" alt="" />
+            <div className={`${isOpen == true ? styles.sidebarActive : ""} ${styles.sideBar} `}>
+            </div>
         </>
     );
 };
