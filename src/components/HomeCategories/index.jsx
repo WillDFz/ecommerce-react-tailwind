@@ -8,28 +8,41 @@ import axios from "axios";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 
 // Components
 import ItemProduct from "../ItemProduct";
 
-const HomeCategories = ({category}) => {
+const HomeCategories = ({ category }) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        axios.get(`https://fakestoreapi.com/products/category/${category}`).then((response) => {
-            setProducts(response.data);
-        });
+        axios
+            .get(`https://fakestoreapi.com/products/category/${category}`)
+            .then((response) => {
+                setProducts(response.data);
+            });
     }, []);
-
 
     return (
         <section className="my-5">
             <div className="container px-3 ">
-                <h2 className={`${styles.sectionTitle} mb-4 text-secondary capitalize`}>{category}</h2>
-                <Swiper spaceBetween={15} slidesPerView={2.5}>
+                <h2
+                    className={`${styles.sectionTitle} mb-4 text-secondary capitalize`}
+                >
+                    {category}
+                </h2>
+                <Swiper
+                    spaceBetween={15}
+                    slidesPerView={2.5}
+                    autoplay={{
+                        delay: 4500,
+                    }}
+                    loop={true}
+                    modules={[Autoplay]}
+                >
                     {products.map((product) => {
                         return (
                             <SwiperSlide key={product.id}>

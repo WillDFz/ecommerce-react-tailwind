@@ -79,15 +79,15 @@ const Footer = () => {
                 <SocialLinks />
             </div>
 
-            <div className="col-span-12 mt-2">
+            <div className="col-span-12 mb-5">
                 <PaymentsFlags/>
             </div>
   
-            <div className="col-span-12 mt-2">
+            <div className="col-span-12 mb-5">
                 <ShippingFlags/>
             </div>
             
-            <div className="col-span-12">
+            <div className="col-span-12 border-t border-gray-600 pt-3">
                 <FooterLegal/>
             </div>
         </div>
