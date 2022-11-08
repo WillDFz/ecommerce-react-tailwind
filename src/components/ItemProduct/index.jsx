@@ -4,7 +4,7 @@ const ItemProduct = ({ title, price, image }) => {
     var priceBRL = price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
     return (
         <div className={`${styles.itemProduct}`}>
-            <div className={`${styles.imageContainer} border flex justify-center`}>
+            <div className={`${styles.imageContainer} border rounded-t flex justify-center`}>
                 <img src={image} className={`${styles.productImage}`} alt="" />
             </div>
             <div className={`${styles.itemInfo} py-1`}>
