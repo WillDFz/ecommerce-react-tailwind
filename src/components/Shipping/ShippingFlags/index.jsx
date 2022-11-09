@@ -1,7 +1,7 @@
 import store from "../../../../pages/api/store.json";
 
 const ShippingFlags = () => {
-    const shipping = store[0].shipping;
+    const shipping = store.shipping;
     return (
         <>
         <h1 className="text-secondary font-bold mb-3">Meios de envios</h1>

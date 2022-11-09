@@ -1,7 +1,7 @@
 import store from "../../../../pages/api/store.json";
 
 const PaymentsFlags = () => {
-    const payments = store[0].payments;
+    const payments = store.payments;
     return (
         <>
             <h1 className="text-secondary font-bold mb-3">Formas de pagamento</h1>

@@ -1,79 +1,77 @@
-[
-    {
-        "id": 0,
-        "url": "x",
-        "name": "Will Tailwind Store",
-        "adress": "Rua X, 0000",
-        "phone": "(00) 00000-0000",
-        "email": "email@email.com",
-        "social": [
-            {
-                "id": 1,
-                "name": "Instagram",
-                "url": "https://www.instagram.com",
-                "icon": "svg/instagram.svg"
-            },
-            {
-                "id": 2,
-                "name": "Facebook",
-                "url": "https://www.facebook.com",
-                "icon": "svg/facebook.svg"
-            },
-            {
-                "id": 3,
-                "name": "Pinterest",
-                "url": "https://www.pinterest.com",
-                "icon": "svg/pinterest.svg"
-            }
-        ],
-        "payments": [
-            {
-                "id": 1,
-                "name": "visa",
-                "image": "images/payments/visa.png"
-            },
-            {
-                "id": 2,
-                "name": "master",
-                "image": "images/payments/mastercard.png"
-            },
-            {
-                "id": 3,
-                "name": "americanexpress",
-                "image": "images/payments/amex.png"
-            },
-            {
-                "id": 4,
-                "name": "elo",
-                "image": "images/payments/elo.png"
-            },
-            {
-                "id": 5,
-                "name": "hipercard",
-                "image": "images/payments/hipercard.png"
-            },
-            {
-                "id": 6,
-                "name": "boleto",
-                "image": "images/payments/boleto.png"
-            }
-        ],
-        "shipping": [
-            {
-                "id": 1,
-                "name": "correios",
-                "image": "images/shipping/correios.png"
-            },
-            {
-                "id": 2,
-                "name": "pac",
-                "image": "images/shipping/pac.png"
-            },
-            {
-                "id": 3,
-                "name": "sedex",
-                "image": "images/shipping/sedex.png"
-            }
-        ]
-    }
-]
+{
+    "id": 0,
+    "url": "x",
+    "name": "Will Tailwind Store",
+    "adress": "Rua X, 0000",
+    "phone": "(00) 00000-0000",
+    "email": "email@email.com",
+    "social": [
+        {
+            "id": 1,
+            "name": "Instagram",
+            "url": "https://www.instagram.com",
+            "icon": "svg/instagram.svg"
+        },
+        {
+            "id": 2,
+            "name": "Facebook",
+            "url": "https://www.facebook.com",
+            "icon": "svg/facebook.svg"
+        },
+        {
+            "id": 3,
+            "name": "Pinterest",
+            "url": "https://www.pinterest.com",
+            "icon": "svg/pinterest.svg"
+        }
+    ],
+    "payments": [
+        {
+            "id": 1,
+            "name": "visa",
+            "image": "images/payments/visa.png"
+        },
+        {
+            "id": 2,
+            "name": "master",
+            "image": "images/payments/mastercard.png"
+        },
+        {
+            "id": 3,
+            "name": "americanexpress",
+            "image": "images/payments/amex.png"
+        },
+        {
+            "id": 4,
+            "name": "elo",
+            "image": "images/payments/elo.png"
+        },
+        {
+            "id": 5,
+            "name": "hipercard",
+            "image": "images/payments/hipercard.png"
+        },
+        {
+            "id": 6,
+            "name": "boleto",
+            "image": "images/payments/boleto.png"
+        }
+    ],
+    "shipping": [
+        {
+            "id": 1,
+            "name": "correios",
+            "image": "images/shipping/correios.png"
+        },
+        {
+            "id": 2,
+            "name": "pac",
+            "image": "images/shipping/pac.png"
+        },
+        {
+            "id": 3,
+            "name": "sedex",
+            "image": "images/shipping/sedex.png"
+        }
+    ]
+}

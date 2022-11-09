@@ -3,7 +3,7 @@ import store from "../../../../pages/api/store.json";
 import styles from "./styles.module.scss";
 
 const SocialLinks = () => {
-    const socialLinks = store[0].social;
+    const socialLinks = store.social;
     return (
         <div className={`${styles.socialContainer} flex justify-evenly`}>
             {socialLinks.map((socialLink) => (
