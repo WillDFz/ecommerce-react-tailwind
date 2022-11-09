@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="grid grid-cols-12 items-center py-5">
                     <div className="col-span-2 flex">
                         <div
-                            className={`${styles.menuContainer} w-12 h-12 flex justify-center items-center rounded`}
+                            className={`${styles.menuContainer} ${isOpen == true ? styles.menuInnerBtn : ""} w-12 h-12 flex justify-center items-center rounded`}
                         >
                             <Hamburger size={20} color="#ECD690" toggled={isOpen} toggle={setOpen} />
                         </div>
@@ -38,7 +38,7 @@ const Header = () => {
                             href="#"
                             className={`${styles.cartBtn} w-12 h-12 flex justify-center items-center p-2 rounded`}
                         >
-                            <img src="/svg/cart.svg" className="h-4" alt="" />
+                            <img src="/svg/cart.svg" className="h-5" alt="" />
                         </a>
                     </div>
                 </div>
