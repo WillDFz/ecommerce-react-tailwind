@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Informative Banners",
+        "banners": [
+            {
+                "id": 1,
+                "title": "Frete grátis",
+                "description": "Para compras acima de R$ 99,00",
+                "icon": "svg/truck.svg"
+            },
+            {
+                "id": 2,
+                "title": "10% de desconto",
+                "description": "No boleto bancário",
+                "icon": "svg/barcode.svg"
+            },
+            {
+                "id": 3,
+                "title": "10x sem juros",
+                "description": "Com cartões de credito",
+                "icon": "svg/card.svg"
+            },
+            {
+                "id": 4,
+                "title": "Trocas e devoluções",
+                "description": "Grátis por 7 dias",
+                "icon": "svg/refresh.svg"
+            }
+        ]
+    }
+]

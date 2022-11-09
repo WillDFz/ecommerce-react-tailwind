@@ -5,6 +5,7 @@ import HomeSlider from "../src/components/HomeSlider";
 import Header from './../src/components/UI/Header/index';
 import Newsletter from './../src/components/UI/Newsletter/index';
 import Footer from './../src/components/UI/Footer/index';
+import InformativeBanners from './../src/components/Banners/InformativeBanners/index';
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
             </Head>
             <Header/>
             <HomeSlider/>
+            <InformativeBanners/>
             <HomeProducts/>
             <HomeCategories category={"electronics"} />
             <HomeCategories category={"jewelery"} />
