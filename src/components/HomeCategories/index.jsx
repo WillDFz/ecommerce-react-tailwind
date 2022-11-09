@@ -42,6 +42,11 @@ const HomeCategories = ({ category }) => {
                     }}
                     loop={true}
                     modules={[Autoplay]}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 3.5,
+                        },
+                    }}
                 >
                     {products.map((product) => {
                         return (

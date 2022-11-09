@@ -20,13 +20,13 @@ const HomeSlider = () => {
                 modules={[Autoplay, Pagination]}
             >
                 <SwiperSlide>
-                    <img src="images/banner1.jpg" alt="" />
+                    <img src="images/banner1.jpg" className="w-full" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="images/banner1.jpg" alt="" />
+                    <img src="images/banner1.jpg" className="w-full" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="images/banner1.jpg" alt="" />
+                    <img src="images/banner1.jpg" className="w-full" alt="" />
                 </SwiperSlide>
             </Swiper>
         </>

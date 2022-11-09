@@ -24,7 +24,7 @@ const Header = () => {
                             <Hamburger size={20} color="#ECD690" toggled={isOpen} toggle={setOpen} />
                         </div>
                     </div>
-                    <div className="col-span-8">
+                    <div className="col-span-8 flex justify-center">
                         <img
                             src="/svg/logo.svg"
                             className="max-h-12"

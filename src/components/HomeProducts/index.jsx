@@ -26,7 +26,7 @@ const HomeProducts = () => {
     }, []);
 
     return (
-        <section className="my-5">
+        <section className="mb-5">
             <div className="container px-3 ">
                 <h2 className={`${styles.sectionTitle} mb-4 text-secondary`}>
                     Todos produtos
@@ -39,6 +39,13 @@ const HomeProducts = () => {
                     }}
                     loop={true}
                     modules={[Autoplay]}
+                    breakpoints={
+                        {
+                            768: {
+                                slidesPerView: 3.5,
+                            }
+                        }
+                    }
                 >
                     {products.map((product) => {
                         return (
