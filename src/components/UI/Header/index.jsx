@@ -54,13 +54,13 @@ const Header = () => {
                     {/* Cart & Wishlist */}
                     <div className="col-span-2 xl:col-span-3 flex justify-end">
                         {/* Wishlist */}
-                        <a href="" className="w-auto h-12 hidden xl:flex items-center text-primary text-xs bg-black rounded mr-5 p-3">
+                        <a href="" className="w-auto h-10 hidden xl:flex items-center text-primary text-xs bg-black rounded mr-5 p-3">
                             <img src="svg/heart.svg" className="h-5 mr-2" alt="" />Lista de desejos
                         </a>
                         {/* Cart */}
                         <a
                             href="#"
-                            className={`${styles.cartBtn} w-12 h-12 flex justify-center items-center p-2 rounded`}
+                            className={`${styles.cartBtn} w-10 h-10 flex justify-center items-center p-2 rounded`}
                         >
                             <img src="/svg/cart.svg" className="h-5" alt="" />
                         </a>
