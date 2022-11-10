@@ -1,8 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Styles
-import styles from "./styles.module.scss";
-
 // Banners json
 import banners from "../../../../pages/api/banners.json";
 
