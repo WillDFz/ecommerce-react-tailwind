@@ -28,5 +28,27 @@
                 "icon": "svg/refresh.svg"
             }
         ]
+    },
+    {
+        "id": 2,
+        "name": "Home Banners",
+        "banners": [
+            {
+                "id": 1,
+                "mobile": [
+                    { "id": 1, "image": "images/banners/banner_mobile.png" },
+                    { "id": 2, "image": "images/banners/banner_mobile.png" },
+                    { "id": 3, "image": "images/banners/banner_mobile.png" }
+                ]
+            },
+            {
+                "id": 2,
+                "desktop": [
+                    { "id": 1, "image": "images/banners/banner_desktop.png" },
+                    { "id": 2, "image": "images/banners/banner_desktop.png" },
+                    { "id": 3, "image": "images/banners/banner_desktop.png" }
+                ]
+            }
+        ]
     }
 ]
