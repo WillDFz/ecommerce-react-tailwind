@@ -47,7 +47,7 @@ const HomeCategories = ({ category }) => {
                             slidesPerView: 3.5,
                         },
                         1200: {
-                            slidesPerView: 5,
+                            slidesPerView: 7,
                         }
                     }}
                 >
