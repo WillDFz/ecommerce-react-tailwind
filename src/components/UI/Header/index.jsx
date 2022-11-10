@@ -31,24 +31,26 @@ const Header = () => {
                             />
                         </div>
                     </div>
-                    {/* Search desktop */}
-
-                    <div className="col-span-3 hidden xl:block">
-                        <SearchInput />
-                    </div>
+                    
                     {/* Logo */}
-                    <div className="col-span-8 xl:col-span-7 flex justify-center">
+                    <div className="col-span-8 xl:col-span-4 flex justify-center">
                         <img
                             src="/svg/logo.svg"
-                            className="max-h-12"
+                            className="h-12 xl:h-16"
                             alt=""
                             width={500}
                             height={500}
                         />
                     </div>
 
+                    {/* Search desktop */}
+
+                    <div className="col-span-5 hidden xl:block">
+                        <SearchInput />
+                    </div>
+
                     {/* Cart */}
-                    <div className="col-span-2 xl:col-span-2 flex justify-end">
+                    <div className="col-span-2 xl:col-span-3 flex justify-end">
                         <a
                             href="#"
                             className={`${styles.cartBtn} w-12 h-12 flex justify-center items-center p-2 rounded`}
