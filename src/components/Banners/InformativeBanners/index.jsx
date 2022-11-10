@@ -3,6 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Banners json
 import banners from "../../../../pages/api/banners.json";
 
+// Styles
+import styles from "./styles.module.scss"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -27,7 +30,7 @@ const InformativeBanners = () => {
                 className="xl:hidden"
             >
                 {informativeBanners[0].banners.map((banner) => (
-                    <SwiperSlide key={banner.id} className="flex items-center">
+                    <SwiperSlide key={banner.id} className={`${styles.informativeCard} flex items-center rounded p-3`}>
                         <div className="mr-3">
                             <img src={banner.icon} className="h-9" alt="" />
                         </div>
@@ -45,7 +48,7 @@ const InformativeBanners = () => {
 
             <div className="xl:flex justify-around grid-cols-12 hidden">
                 {informativeBanners[0].banners.map((banner) => (
-                    <div key={banner.id} className="col-span-3 flex">
+                    <div key={banner.id} className={`${styles.informativeCard} col-span-3 w-72 h-16 flex items-center justify-center rounded`}>
                         <div className="mr-3">
                             <img src={banner.icon} className="h-9" alt="" />
                         </div>
