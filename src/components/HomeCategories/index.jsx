@@ -28,7 +28,7 @@ const HomeCategories = ({ category }) => {
 
     return (
         <section className="my-5">
-            <div className="container px-3 ">
+            <div className="container px-3 xl:mx-auto">
                 <h2
                     className={`${styles.sectionTitle} mb-4 text-secondary capitalize`}
                 >
@@ -46,6 +46,9 @@ const HomeCategories = ({ category }) => {
                         768: {
                             slidesPerView: 3.5,
                         },
+                        1200: {
+                            slidesPerView: 5,
+                        }
                     }}
                 >
                     {products.map((product) => {
