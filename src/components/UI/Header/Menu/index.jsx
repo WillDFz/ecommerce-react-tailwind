@@ -7,10 +7,8 @@ import axios from "axios";
 // Styles
 import styles from "./styles.module.scss";
 
-// Hamburger react comp
-import Hamburger from "hamburger-react";
 
-const Menu = ({ isOpen, setOpen }) => {
+const Menu = ({ isOpen }) => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {

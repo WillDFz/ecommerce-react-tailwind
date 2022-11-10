@@ -1,33 +1,33 @@
+@use './colors.scss';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-$main-background: #000;
-$primaty-color: #fff;
-$secondary-color: #ECD690;
+
 
 body {
-    background: $main-background;
+    background: colors.$main-background;
 }
 
 .text-primary {
-    color: $primaty-color;
-    fill: $primaty-color;
+    color: colors.$primary-color;
+    fill: colors.$primary-color;
 }
 
 .text-secondary {
-    color: $secondary-color;
-    fill: $secondary-color;
+    color: colors.$secondary-color;
+    fill: colors.$secondary-color;
 }
 
 .main-background {
-    background: $main-background;
+    background: colors.$main-background;
 }
 
 .main-foreground{
-    background: $secondary-color;
+    background: colors.$secondary-color;
 }
 
 .swiper-pagination-bullet-active{
-    background: $secondary-color !important;
+    background: colors.$secondary-color !important;
 }

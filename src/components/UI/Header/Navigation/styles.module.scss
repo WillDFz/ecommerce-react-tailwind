@@ -1,0 +1,5 @@
+@use '../../../../../styles/colors.scss';
+
+.navigation {
+    border-top: 1px solid darken(colors.$secondary-color, 30% );
+}

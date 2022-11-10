@@ -1,6 +1,21 @@
 .searchInput {
     border: 1px solid #ECD690;
-    &::placeholder{
+
+    &::placeholder {
         opacity: .7;
+    }
+}
+
+.searchBtnContainer {
+    @media (min-width: 1200px) {
+        position: relative;
+        top: -40px;
+        right: 5px;
+    }
+}
+
+.searchBtn {
+    @media (min-width: 1200px) {
+        right: 0;
     }
 }
